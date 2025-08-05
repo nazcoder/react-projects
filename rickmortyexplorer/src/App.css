@@ -1,0 +1,89 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 4em;
+  padding: 1.5em;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.tanstack-table {
+  td {
+    padding: .5rem
+  }
+
+  .tanstack-table-row:hover {
+    cursor: pointer;
+    background-color: rgb(65, 45, 45);
+    color: "darkgrey"
+  }
+}
+
+.refresh-btn {
+  margin-bottom: 2rem;
+}
+
+.table-pagination-btn-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.character-card-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  background-color: #111;
+
+    .female-character {
+      border: 2px solid deeppink;
+    }
+
+    .male-character {
+      border: 2px solid #3B82F6;
+    }
+
+  img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+  }
+
+
+  h2 {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+  }
+}
